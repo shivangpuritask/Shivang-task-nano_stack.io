@@ -4,7 +4,7 @@ import React from 'react'
 const Nav = () => {
   return (
 
-    <header className=" w-full shadow px-4 py-2 flex  items-center  ">
+    <header className=" w-full shadow- px-4 py-2 flex  items-center  ">
 
 <div className="w-70 h-10 flex justify-start items-center">
      <div className="  w-20  ">
