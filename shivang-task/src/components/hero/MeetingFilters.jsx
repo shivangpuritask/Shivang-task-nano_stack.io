@@ -13,7 +13,7 @@ const MeetingFilters = () => {
 ];
 
   return (
- <div className="flex flex-wrap gap-2 items-center border border-gray-200 rounded-md p-3 bg-white shadow-sm mt-2 fontsans1 ">
+ <div className="flex flex-wrap gap-2 items-center border border-gray-200 rounded-t-md p-3 bg-white shadow-sm mt-2 fontsans1 ">
      
       <div className="flex items-center px-3 py-2 gap-2 border border-gray-300 rounded-md bg-white text-xs text-gray-700 w-fit">
         <img width="20" height="20" src="https://img.icons8.com/external-anggara-basic-outline-anggara-putra/24/external-social-social-media-basic-others-anggara-putra-20.png" alt="external-social-social-media-basic-others-anggara-putra-20"/>

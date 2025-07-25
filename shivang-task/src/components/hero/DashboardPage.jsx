@@ -1,12 +1,14 @@
 import React from 'react'
 import TabFilter from './TabFilter'
 import MeetingFilters from './MeetingFilters'
+import MeetingTable from './MeetingTable'
+import Pagination from './Pagination'
 
 const DashboardPage = () => {
   return (
-    <div className='w-11/12 bg-[#f8fafd] inset-shadow-2xl px-5' >
+    <div className='w-11/12 bg-[#f8fafd] inset-shadow-2xl px-5 overflow-hidden overflow-y-scroll   ' >
 
-        <div className="flex items-center justify-between p-4 px-1 bg-gray-50">
+        <div className="flex items-center justify-between p-4 px-1  bg-gray-50">
 
           <div>
         <h1 className="text-lg fontsans2 text-gray-900">Buyer Meeting List View</h1>
@@ -38,6 +40,14 @@ const DashboardPage = () => {
       </div>
       <TabFilter />
       <MeetingFilters />
+      <div className=' w-12/12 relative  ' >
+
+        <MeetingTable />
+
+      </div>
+
+      <Pagination />
+      
 
     </div>
   )

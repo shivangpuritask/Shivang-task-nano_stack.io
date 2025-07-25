@@ -36,3 +36,9 @@
 .hide-scrollbar::-webkit-scrollbar {
   display: none;
 }
+
+.shadow12 {
+  box-shadow : -5px 2px 5px rgba(0, 0, 0, 0.075);
+}
+
+
